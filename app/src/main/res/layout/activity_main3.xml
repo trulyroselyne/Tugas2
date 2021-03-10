@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/grad"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Biodata Mahasiswa"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:textSize="36dp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama : \nTruly Roselyne Immanuelle Rieuwpassa"
+        android:textSize="18dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginRight="43dp"
+        android:layout_marginTop="23dp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/tv1"
+        />
+
+    <TextView
+        android:id="@id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIM : \nH071191034"
+        android:textSize="18dp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:layout_marginLeft="43dp"
+        android:layout_marginRight="43dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv2"
+        />
+
+    <TextView
+        android:id="@id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TTL ; \nMakassar, 12 Februari 2001"
+        android:textSize="18dp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:layout_marginLeft="43dp"
+        android:layout_marginRight="43dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv3"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Motto :\nStop wishing, start doing"
+        android:textSize="18dp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:layout_marginLeft="43dp"
+        android:layout_marginRight="43dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv4"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/futu"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="back to home"
+        android:onClick="btnbth2"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="artikel"
+        android:onClick="btnartikel2"
+        />
+
+
+
+</LinearLayout>
